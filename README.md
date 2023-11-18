@@ -1,8 +1,8 @@
 # Advanced Text
 
-Advanced Text package lets you add the features like readmore/readless and clickable link to your Flutter app. It is also the most customizable text widget on whole pub market.
+Advanced Text is a package that provides various text features, such as text sections that can be collapsed or expanded, hyperlinks that can be clicked, and more.
 
-![](demo.gif)
+![](https://raw.githubusercontent.com/parth-darji/advanced_text/main/demo.gif)
 
 ## Installation 
 
