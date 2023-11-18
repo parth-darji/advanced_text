@@ -234,10 +234,25 @@ class AdvancedTextState extends State<AdvancedText> {
                   'TrimMode type: ${widget.features.readMore.trim.mode} is not supported');
           }
         } else {
-          textSpan = TextSpan(
-            style: effectiveTextStyle,
-            text: widget.text,
-          );
+          if (widget.features.hyperlink.enable) {
+            textSpan = TextSpan(
+              children: text.children,
+              locale: text.locale,
+              mouseCursor: text.mouseCursor,
+              recognizer: text.recognizer,
+              onEnter: text.onEnter,
+              onExit: text.onExit,
+              semanticsLabel: text.semanticsLabel,
+              spellOut: text.spellOut,
+              style: effectiveTextStyle,
+              text: text.text,
+            );
+          } else {
+            textSpan = TextSpan(
+              style: effectiveTextStyle,
+              text: widget.text,
+            );
+          }
         }
 
         return RichText(

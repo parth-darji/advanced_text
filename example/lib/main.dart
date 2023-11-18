@@ -135,7 +135,7 @@ class AdvancedTextExample extends StatelessWidget {
                   ),
                 ),
                 readMore: ReadMore(
-                  enable: true,
+                  enable: false,
                   expandedText: "...Show less",
                   collapsedText: "...Read more",
                   decoration: ReadMoreDecoration(
