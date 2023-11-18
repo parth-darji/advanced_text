@@ -1,6 +1,6 @@
 // ignore_for_file: must_be_immutable
 
-import 'package:advanced_text/src/utils/long_press_dialog.dart';
+import 'package:advanced_text/src/core/utils/long_press_dialog.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

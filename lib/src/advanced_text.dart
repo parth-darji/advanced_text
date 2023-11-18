@@ -2,11 +2,11 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:linkify/linkify.dart';
 
-import 'models/features.dart';
-import 'models/text_customization.dart';
-import 'utils/constants.dart';
-import 'utils/enums.dart';
-import 'utils/linkify.dart';
+import 'data/models/features.dart';
+import 'data/models/text_customization.dart';
+import 'core/utils/constants.dart';
+import 'core/utils/enums.dart';
+import 'core/utils/linkify.dart';
 
 class AdvancedText extends StatefulWidget {
   const AdvancedText(
@@ -25,7 +25,7 @@ class AdvancedText extends StatefulWidget {
 
   /// Main features of advanced_text package.
   /// 1) Read More
-  /// 2) Clickable Link Text
+  /// 2) Hyperlink
   final AdvancedTextFeatures features;
 
   @override
