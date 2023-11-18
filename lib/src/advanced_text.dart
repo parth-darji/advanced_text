@@ -37,13 +37,7 @@ class AdvancedTextState extends State<AdvancedText> {
 
   void _onTapLink() {
     setState(() {
-      if (widget.features.readMore.onTap == null) {
-        _readMoreStatus = !_readMoreStatus;
-      } else {
-        if (widget.features.readMore.onTap != null) {
-          widget.features.readMore.onTap!();
-        }
-      }
+      _readMoreStatus = !_readMoreStatus;
     });
   }
 
