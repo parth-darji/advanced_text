@@ -1,6 +1,6 @@
 name: advanced_text
-description: advanced_text contains the Advanced functionalities in Text widget such as Read More and Hyperlink.
-version: 0.0.1
+description: Advanced Text is a package that provides various text features, such as text sections that can be collapsed or expanded, hyperlinks that can be clicked, and more.
+version: 0.0.2
 homepage: https://github.com/parth-darji/advanced_text
 license: MIT
 
