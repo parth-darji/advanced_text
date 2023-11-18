@@ -2,14 +2,13 @@
 
 Advanced Text is a package that provides various text features, such as text sections that can be collapsed or expanded, hyperlinks that can be clicked, and more.
 
-![](https://raw.githubusercontent.com/parth-darji/advanced_text/main/demo.gif)
+<img src="https://raw.githubusercontent.com/parth-darji/advanced_text/main/demo.gif"  width="240" height="534">
 
 ## Installation 
 
-1. Add the latest version of package to your pubspec.yaml (and run`dart pub get`):
-```yaml
-dependencies:
-  advanced_text: ^0.0.1
+1. Run this command:
+```console
+flutter pub add advanced_text
 ```
 2. Import the package and use it in your Flutter App.
 ```dart
@@ -96,3 +95,7 @@ class AdvancedTextExample extends StatelessWidget {
   }
 }
 ```
+
+## Issues and feedback
+
+Please file advanced_text related issues, bugs and feature request in our [Issue tracker](https://github.com/parth-darji/advanced_text/issues).
